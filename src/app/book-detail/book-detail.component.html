@@ -1,0 +1,56 @@
+<div *ngIf="book" class="row">
+  <div class="col s12 m8 offset-m2">
+    <h2 class="header center">{{ book.title }}</h2>
+    <div class="card horizontal hoverable">
+      <div class="card-image">
+        <img [src]="book.picture" />
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <table class="bordered striped">
+            <tbody>
+              <tr>
+                <td>Titre</td>
+                <td>
+                  <strong>{{ book.title }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Auteur</td>
+                <td>
+                  <strong>{{ book.author }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Résumé</td>
+                <td>
+                  <strong>{{ book.resume }}</strong>
+                </td>
+              </tr>
+              <tr>
+                <td>Genres</td>
+                <td>
+                  <span
+                    *ngFor="let genre of book.genre"
+                    class="{{ genre | bookGenreColor }}"
+                    >{{ genre }}</span
+                  >
+                </td>
+              </tr>
+              <tr *ngIf="book.available !== true">
+                <td>Date de prêt</td>
+                <td>
+                  <em>{{ book.loaningDate | date: 'dd/MM/yyyy' }}</em>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card-action">
+          <a (click)="goBack()">Retour</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<h4 *ngIf="!book" class="center">Aucun livre à afficher !</h4>

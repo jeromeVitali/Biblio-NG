@@ -1,39 +1,7 @@
-<h1 class="center">{{ title }}</h1>
-<div class="container">
-  <div class="row">
-    <div *ngFor="let book of books" class="col s12 m6">
-      <div class="card horizontal" (click)="selectBook(book)" appBookBorderCard>
-        <div class="card-image">
-          <img [src]="book.picture" />
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <h5>{{ book.title }}</h5>
-            <small>{{ book.author }}</small>
-            <p>
-              Genre:
-              <span
-                *ngFor="let genre of book.genre"
-                class="{{ genre | bookGenreColor }}"
-                >{{ genre }}</span
-              >
-            </p>
-            <div class="card-action">
-              <p>
-                Disponibilité : {{ book.available }}
-                <!-- Voir pour mettre le texte en vert/rouge selon dispo true/false -->
-              </p>
-            </div>
-            <div *ngIf="book.available != true" class="card-action">
-              <p>
-                Prêt le :
-                {{ book.loaningDate | date: 'dd/MM/yyyy' | uppercase }}
-              </p>
-              <!-- Voir pour afficher la date SI pas dispo -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<nav>
+  <div class="nav-wrapper teal">
+    <a href="#" class="brand-logo center">Biblio-NG</a>
   </div>
-</div>
+</nav>
+
+<router-outlet></router-outlet>
