@@ -1,3 +1,4 @@
+import { BooksService } from './../books.service';
 import { BookRoutingModule } from './books-rooting.module';
 import { BookGenreColorPipe } from './pipe/book-genre-color';
 import { BookDetailComponent } from './book-detail/book-detail.component';
@@ -15,6 +16,6 @@ import { BorderCardDirective } from './border-card.directive';
     BorderCardDirective,
     BookGenreColorPipe
   ],
-  providers: []
+  providers: [BooksService]
 })
 export class BooksModule {}

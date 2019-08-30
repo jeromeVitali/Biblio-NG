@@ -2,12 +2,12 @@
 import { Book } from '../model/bookModels';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { BooksService } from 'src/app/books.service';
+// import { BooksService } from 'src/app/books.service';
 
 @Component({
   selector: 'book-detail',
-  templateUrl: './book-detail.component.html',
-  providers: [BooksService]
+  templateUrl: './book-detail.component.html'
+  // providers: [BooksService]
 })
 export class BookDetailComponent implements OnInit {
   books: Book[] = null;
