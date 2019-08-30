@@ -9,7 +9,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Cuisine'],
+    genres: ['Cuisine'],
     available: true,
     loaningDate: new Date()
   },
@@ -21,7 +21,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Science-fiction'],
+    genres: ['Science-fiction'],
     available: false,
     loaningDate: new Date()
   },
@@ -33,7 +33,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Bande-dessinée'],
+    genres: ['Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -45,7 +45,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Cuisine', 'Bande-dessinée'],
+    genres: ['Cuisine', 'Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -57,7 +57,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Policier'],
+    genres: ['Policier'],
     available: true,
     loaningDate: new Date()
   },
@@ -69,7 +69,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Policier', 'Bande-dessinée'],
+    genres: ['Policier', 'Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -81,7 +81,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Science-fiction', 'Policier'],
+    genres: ['Science-fiction', 'Policier'],
     available: true,
     loaningDate: new Date()
   },
@@ -93,7 +93,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Théatre'],
+    genres: ['Théatre'],
     available: true,
     loaningDate: new Date()
   },
@@ -105,7 +105,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Aventure', 'Policier'],
+    genres: ['Aventure', 'Policier'],
     available: true,
     loaningDate: new Date()
   },
@@ -117,7 +117,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Cuisine'],
+    genres: ['Cuisine'],
     available: true,
     loaningDate: new Date()
   },
@@ -129,7 +129,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Science-fiction'],
+    genres: ['Science-fiction'],
     available: false,
     loaningDate: new Date()
   },
@@ -141,7 +141,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Bande-dessinée'],
+    genres: ['Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -153,7 +153,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Cuisine', 'Bande-dessinée'],
+    genres: ['Cuisine', 'Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -165,7 +165,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Policier'],
+    genres: ['Policier'],
     available: true,
     loaningDate: new Date()
   },
@@ -177,7 +177,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Policier', 'Bande-dessinée'],
+    genres: ['Policier', 'Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -189,7 +189,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Science-fiction', 'Policier'],
+    genres: ['Science-fiction', 'Policier'],
     available: true,
     loaningDate: new Date()
   },
@@ -201,7 +201,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Théatre'],
+    genres: ['Théatre'],
     available: true,
     loaningDate: new Date()
   },
@@ -213,7 +213,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Aventure', 'Policier'],
+    genres: ['Aventure', 'Policier'],
     available: true,
     loaningDate: new Date()
   },
@@ -225,7 +225,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Cuisine'],
+    genres: ['Cuisine'],
     available: true,
     loaningDate: new Date()
   },
@@ -237,7 +237,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Science-fiction'],
+    genres: ['Science-fiction'],
     available: false,
     loaningDate: new Date()
   },
@@ -249,7 +249,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Bande-dessinée'],
+    genres: ['Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -261,7 +261,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Cuisine', 'Bande-dessinée'],
+    genres: ['Cuisine', 'Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -273,7 +273,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Policier'],
+    genres: ['Policier'],
     available: true,
     loaningDate: new Date()
   },
@@ -285,7 +285,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Policier', 'Bande-dessinée'],
+    genres: ['Policier', 'Bande-dessinée'],
     available: true,
     loaningDate: new Date()
   },
@@ -297,7 +297,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Science-fiction', 'Policier'],
+    genres: ['Science-fiction', 'Policier'],
     available: true,
     loaningDate: new Date()
   },
@@ -309,7 +309,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Théatre'],
+    genres: ['Théatre'],
     available: true,
     loaningDate: new Date()
   },
@@ -321,7 +321,7 @@ export const BOOKS: Book[] = [
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
-    genre: ['Aventure', 'Policier'],
+    genres: ['Aventure', 'Policier'],
     available: true,
     loaningDate: new Date()
   }

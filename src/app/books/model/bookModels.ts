@@ -4,7 +4,7 @@ export class Book {
   author: string;
   resume: string;
   picture: string;
-  genre: Array<string>;
+  genres: Array<string>;
   available: boolean;
   loaningDate: Date;
 }

@@ -5,6 +5,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { BooksService } from 'src/app/books.service';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'book-detail',
   templateUrl: './book-detail.component.html'
   // providers: [BooksService]
@@ -29,6 +30,11 @@ export class BookDetailComponent implements OnInit {
     //   if (this.books[i].id === id) {
     //     this.book = this.books[i];
     this.book = this.booksService.getBook(id);
+  }
+
+  goEdit(book: Book): void {
+    const link = ['book/edit', book.id];
+    this.router.navigate(link);
   }
 
   goBack(): void {

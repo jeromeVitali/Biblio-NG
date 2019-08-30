@@ -13,11 +13,23 @@ export class BooksService {
   getBook(id: number): Book {
     const books = this.getBooks();
 
+    // tslint:disable-next-line:prefer-for-of
     for (let index = 0; index < books.length; index++) {
       // CHANGER POUR UN FOREACH !!
       if (id === books[index].id) {
         return books[index];
       }
     }
+  }
+
+  getBookGenres(): string[] {
+    return [
+      'Aventure',
+      'Cuisine',
+      'Science-fiction',
+      'Bande-dessinée',
+      'Policier',
+      'Théatre'
+    ];
   }
 }

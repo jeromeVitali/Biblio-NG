@@ -5,6 +5,7 @@ import { Book } from '../model/bookModels';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'book-list', // donne un nom au compo => dans html <app-root></app-root>
   templateUrl: './book-list.component.html'
   // providers: [BooksService]
@@ -13,7 +14,7 @@ export class BookListComponent implements OnInit {
   // logique du compo
 
   public books: Book[] = null;
-  public title: string = 'Biblio-NG';
+  public title = 'Biblio-NG';
 
   constructor(private router: Router, private booksService: BooksService) {}
 

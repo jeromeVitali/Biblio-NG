@@ -31,7 +31,7 @@
                 <td>Genres</td>
                 <td>
                   <span
-                    *ngFor="let genre of book.genre"
+                    *ngFor="let genre of book.genres"
                     class="{{ genre | bookGenreColor }}"
                     >{{ genre }}</span
                   >
@@ -48,6 +48,7 @@
         </div>
         <div class="card-action">
           <a (click)="goBack()">Retour</a>
+          <a (click)="goEdit(book)">Edit</a>
         </div>
       </div>
     </div>

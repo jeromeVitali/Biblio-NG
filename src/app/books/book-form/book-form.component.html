@@ -1,0 +1,107 @@
+<form *ngIf="book" (ngSubmit)="onSubmit()" #bookForm="ngForm">
+  <div class="row">
+    <div class="col s8 offset-s2">
+      <div class="card-panel">
+        <!-- Book title -->
+        <div class="form-group">
+          <label for="title">Ttire</label>
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+            required
+            pattern="^([A-Za-zàáâäçèéêëìíîïñòóôöùúûü0-9\.\,\s\()-])+$"
+            [(ngModel)]="book.title"
+            name="title"
+            #title="ngModel"
+          />
+
+          <div
+            [hidden]="title.valid || title.pristine"
+            class="card-panel red accent-1"
+          >
+            Error.
+          </div>
+        </div>
+
+        <!-- Livre author -->
+        <div class="form-group">
+          <label for="author">Auteur</label>
+          <input
+            type="text"
+            class="form-control"
+            id="author"
+            required
+            pattern="^([A-Za-zàáâäçèéêëìíîïñòóôöùúûü\.\s\,\()-])+$"
+            [(ngModel)]="book.author"
+            name="author"
+            #author="ngModel"
+          />
+          <div
+            [hidden]="author.valid || author.pristine"
+            class="card-panel red accent-1"
+          >
+            Error.
+          </div>
+        </div>
+
+        <!-- Book resume -->
+        <div class="form-group">
+          <label for="resume">Resumé</label>
+          <input
+            type="text"
+            class="form-control"
+            id="resume"
+            required
+            pattern="^([\wàáâäçèéêëìíîïñòóôöùúûü\.\,\s\()-])+$"
+            [(ngModel)]="book.resume"
+            name="resume"
+            #resume="ngModel"
+          />
+          <div
+            [hidden]="resume.valid || resume.pristine"
+            class="card-panel red accent-1"
+          >
+            Error.
+          </div>
+        </div>
+
+        <!-- Book genres -->
+        <form class="form-group">
+          <label for="genres">Genres</label>
+          <p *ngFor="let genre of genres">
+            <label>
+              <input
+                type="checkbox"
+                class="filled-in"
+                id="{{ genre }}"
+                [value]="genre"
+                [checked]="hasGenre(genre)"
+                [disabled]="!isGenresValid(genre)"
+                (change)="selectGenre($event, genre)"
+              />
+              <span [attr.for]="genre">
+                <div class="{{ genre | bookGenreColor }}">
+                  {{ genre }}
+                </div>
+              </span>
+            </label>
+          </p>
+        </form>
+
+        <!-- Submit button -->
+        <div class="divider"></div>
+        <div class="section center">
+          <button
+            type="submit"
+            class="waves-effect waves-light btn"
+            [disabled]="!bookForm.form.valid"
+          >
+            Valider
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
+<h3 *ngIf="!book" class="center">Aucun livre à éditer...</h3>
