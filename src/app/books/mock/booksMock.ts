@@ -3,7 +3,7 @@ import { Book } from '../model/bookModels';
 export const BOOKS: Book[] = [
   {
     id: 1,
-    title: 'titre1',
+    title: 'La Bible de Jérusalem ',
     author: 'Angelica Chubb',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -15,7 +15,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 2,
-    title: 'titre2',
+    title: 'Les Misérables',
     author: 'Primrose Gardner',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -27,7 +27,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 3,
-    title: 'titre3',
+    title: 'Le Petit Prince ',
     author: 'Grossman Rumble',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -39,7 +39,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 4,
-    title: 'titre4',
+    title: 'Les Rougon-Macquart, tome 13 : Germinal ',
     author: 'Corey M. Jones',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -51,7 +51,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 5,
-    title: 'titre5',
+    title: 'Le Seigneur des Anneaux, Tome 1',
     author: 'Corrie A. Mauer',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -63,7 +63,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 6,
-    title: 'titre6',
+    title: 'Le Rouge et le Noir ',
     author: 'Robinia Gawkroger',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -75,7 +75,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 7,
-    title: 'titre7',
+    title: 'Le Grand Meaulnes ',
     author: 'auteur',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -87,7 +87,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 8,
-    title: 'titre8',
+    title: 'Vingt mille lieues sous les mers ',
     author: 'Elanor Mugwort',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -99,7 +99,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 9,
-    title: 'titre9',
+    title: 'Jamais sans ma fille ',
     author: 'Herugar Tunnelly',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -111,7 +111,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 11,
-    title: 'titre11',
+    title: 'Les Trois Mousquetaires ',
     author: 'auteur',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -123,7 +123,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 12,
-    title: 'titre12',
+    title: 'Journal dAnne Frank',
     author: 'Isembard Hayward',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -135,7 +135,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 13,
-    title: 'titre13',
+    title: 'La Bicyclette bleue, tome 1 ',
     author: 'auteur',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -147,7 +147,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 14,
-    title: 'titre14',
+    title: '	La nuit des temps ',
     author: 'Cornelia Twofoot',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -159,7 +159,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 15,
-    title: 'titre15',
+    title: 'Les oiseaux se cachent pour mourir ',
     author: 'auteur',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -171,7 +171,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 16,
-    title: 'titre16',
+    title: 'Dix petits nègres ',
     author: 'Dudo Sandheaver',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -183,7 +183,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 17,
-    title: 'titre17',
+    title: 'Les Aventures de Tintin, tome 1 ',
     author: 'Bruno Clayhanger',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -195,7 +195,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 18,
-    title: 'titre18',
+    title: 'Autant en emporte le vent ',
     author: 'Faramir Grubb',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -207,7 +207,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 19,
-    title: 'titre19',
+    title: 'Les Rougon Macquart, tome 7',
     author: 'Bell Sandyman',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -219,7 +219,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 21,
-    title: 'titre21',
+    title: 'Jane Eyre ',
     author: 'Rowan Brandagamba',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -231,7 +231,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 22,
-    title: 'titre22',
+    title: 'Le Petit Robert de la Langue Francaise ',
     author: 'Porro Hornblower',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -243,7 +243,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 23,
-    title: 'titre23',
+    title: 'Au nom de tous les miens ',
     author: 'Fredegar Gardner',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -255,7 +255,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 24,
-    title: 'titre24',
+    title: 'Le comte de Monte-Cristo, tome 1 ',
     author: 'Elfstan Rumble',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -267,7 +267,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 25,
-    title: 'titre25',
+    title: '	La cité de la joie ',
     author: 'Marcus Goodbody',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -279,7 +279,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 26,
-    title: 'titre26',
+    title: 'Le meilleur des Mondes ',
     author: 'Gorbulas Goodchild',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -291,7 +291,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 27,
-    title: 'titre27',
+    title: 'La peste ',
     author: 'Orgulas Mugwort',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -303,7 +303,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 28,
-    title: 'titre28',
+    title: 'Le cycle de Dune, tome 1 : Dune ',
     author: 'Rosamunda Hornblower',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',
@@ -315,7 +315,7 @@ export const BOOKS: Book[] = [
   },
   {
     id: 29,
-    title: 'titre29',
+    title: 'Paroles',
     author: 'Goodwill Goodbody',
     resume:
       'His cognitis Gallus ut serpens adpetitus telo vel saxo iamque spes extremas opperiens et succurrens saluti suae quavis ratione colligi omnes iussit armatos et cum starent attoniti, districta dentium acie stridens adeste inquit viri fortes mihi periclitanti vobiscum.',

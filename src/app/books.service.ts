@@ -38,7 +38,18 @@ export class BooksService {
 
     return this.http.put(this.booksUrl, book, HttpOptions).pipe(
       tap(_ => this.log(`updated book id=${book.id}`)),
-      catchError(this.handleError<any>(`updatePokemon`))
+      catchError(this.handleError<any>(`updateBook`))
+    );
+  }
+
+  searchBooks(term: string): Observable<Book[]> {
+    if (!term.trim()) {
+      return of([]);
+    }
+
+    return this.http.get<Book[]>(`${this.booksUrl}/?title=${term}`).pipe(
+      tap(_ => this.log(`found books matching "${term}" `)),
+      catchError(this.handleError<Book[]>('searchBooks', []))
     );
   }
 
@@ -50,7 +61,7 @@ export class BooksService {
 
     return this.http.delete<Book>(url, HttpOptions).pipe(
       tap(_ => this.log(`deleted book id=${book.id}`)),
-      catchError(this.handleError<any>(`deletePokemon`))
+      catchError(this.handleError<any>(`deleteBook`))
     );
   }
 

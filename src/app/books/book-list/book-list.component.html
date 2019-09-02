@@ -1,6 +1,7 @@
 <h1 class="center">{{ title }}</h1>
 <div class="container">
   <div class="row">
+    <book-search></book-search>
     <div *ngFor="let book of books" class="col s12 m6">
       <div class="card horizontal" (click)="selectBook(book)" appBookBorderCard>
         <div class="card-image">

@@ -104,4 +104,6 @@
     </div>
   </div>
 </form>
-<h3 *ngIf="!book" class="center">Aucun livre à éditer...</h3>
+<h4 *ngIf="!book" class="center">
+  <book-loader></book-loader>
+</h4>

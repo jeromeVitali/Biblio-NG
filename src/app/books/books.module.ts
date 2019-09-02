@@ -1,3 +1,4 @@
+import { LoaderComponent } from './../loader.component';
 import { BookEditComponent } from './book-edit/book-edit.component';
 import { BookFormComponent } from './book-form/book-form.component';
 import { BooksService } from './../books.service';
@@ -9,6 +10,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BorderCardDirective } from './border-card.directive';
 import { FormsModule } from '@angular/forms';
+import { BookSearchComponent } from './book-search/book-search.component';
 
 @NgModule({
   imports: [CommonModule, FormsModule, BookRoutingModule],
@@ -18,7 +20,9 @@ import { FormsModule } from '@angular/forms';
     BorderCardDirective,
     BookGenreColorPipe,
     BookFormComponent,
-    BookEditComponent
+    BookEditComponent,
+    BookSearchComponent,
+    LoaderComponent
   ],
   providers: [BooksService]
 })
