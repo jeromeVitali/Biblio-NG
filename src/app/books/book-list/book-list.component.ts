@@ -19,11 +19,10 @@ export class BookListComponent implements OnInit {
   constructor(private router: Router, private booksService: BooksService) {}
 
   ngOnInit(): void {
-    // this.books = BOOKS;
-    this.books = this.booksService.getBooks();
+    this.booksService.getBooks().subscribe(books => (this.books = books));
   }
 
-  selectBook(book: Book) {
+  selectBook(book: Book): void {
     console.log('vous avez clic sur' + book.title);
     const link = ['/book', book.id];
     this.router.navigate(link);

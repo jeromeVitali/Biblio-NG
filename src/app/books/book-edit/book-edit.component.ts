@@ -17,7 +17,7 @@ export class BookEditComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    const id = +this.route.snapshot.params['id'];
-    this.book = this.booksService.getBook(id);
+    const id = +this.route.snapshot.params.id;
+    this.booksService.getBook(id).subscribe(book => (this.book = book));
   }
 }

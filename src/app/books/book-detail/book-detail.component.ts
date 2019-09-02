@@ -21,15 +21,8 @@ export class BookDetailComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    // this.books = BOOKS;
-    this.books = this.booksService.getBooks();
-
-    const id = +this.route.snapshot.paramMap.get('id'); // on recup l'id du livre contenu dans l'url (snapshot=synchrone)
-    // for (let i = 0; i < this.books.length; i++) {
-    //   // VOIR POUR UN FOREACH!!
-    //   if (this.books[i].id === id) {
-    //     this.book = this.books[i];
-    this.book = this.booksService.getBook(id);
+    const id = +this.route.snapshot.params.id;
+    this.booksService.getBook(id).subscribe(book => (this.book = book));
   }
 
   goEdit(book: Book): void {

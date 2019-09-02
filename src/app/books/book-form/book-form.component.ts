@@ -55,6 +55,10 @@ export class BookFormComponent implements OnInit {
   // La méthode appelée lorsque le formulaire est soumis.
   onSubmit(): void {
     console.log('Submit form !');
+    this.booksService.updateBook(this.book).subscribe(() => this.goBack());
+  }
+
+  goBack(): void {
     const link = ['/book', this.book.id];
     this.router.navigate(link);
   }
