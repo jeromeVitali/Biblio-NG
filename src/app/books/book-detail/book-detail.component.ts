@@ -30,6 +30,10 @@ export class BookDetailComponent implements OnInit {
     this.router.navigate(link);
   }
 
+  delete(book: Book): void {
+    this.booksService.deleteBook(book).subscribe(_ => this.goBack());
+  }
+
   goBack(): void {
     this.router.navigate(['./books']);
     // window.history.back()

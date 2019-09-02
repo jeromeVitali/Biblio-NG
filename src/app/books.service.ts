@@ -42,6 +42,18 @@ export class BooksService {
     );
   }
 
+  deleteBook(book: Book): Observable<Book> {
+    const url = `${this.booksUrl}/${book.id}`;
+    const HttpOptions = {
+      headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+    };
+
+    return this.http.delete<Book>(url, HttpOptions).pipe(
+      tap(_ => this.log(`deleted book id=${book.id}`)),
+      catchError(this.handleError<any>(`deletePokemon`))
+    );
+  }
+
   getBookGenres(): string[] {
     return [
       'Aventure',
