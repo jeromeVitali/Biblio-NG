@@ -64,7 +64,7 @@ export class BooksService {
       catchError(this.handleError<any>(`deleteBook`))
     );
   }
-
+  // Retourne la liste des genres des livres
   getBookGenres(): string[] {
     return [
       'Aventure',

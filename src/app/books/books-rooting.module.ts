@@ -4,7 +4,7 @@ import { BookListComponent } from './book-list/book-list.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-// les routes du module Pokémon
+// les routes du module book
 const booksRoutes: Routes = [
   { path: 'books', component: BookListComponent },
   { path: 'book/edit/:id', component: BookEditComponent },
