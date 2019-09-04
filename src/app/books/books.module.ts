@@ -1,3 +1,4 @@
+import { AuthGuard } from './../auth-guard.service';
 import { LoaderComponent } from './../loader.component';
 import { BookEditComponent } from './book-edit/book-edit.component';
 import { BookFormComponent } from './book-form/book-form.component';
@@ -24,6 +25,6 @@ import { BookSearchComponent } from './book-search/book-search.component';
     BookSearchComponent,
     LoaderComponent
   ],
-  providers: [BooksService]
+  providers: [BooksService, AuthGuard]
 })
 export class BooksModule {}

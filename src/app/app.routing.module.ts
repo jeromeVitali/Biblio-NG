@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 // routes
 const appRoutes: Routes = [
-  { path: '', redirectTo: 'books', pathMatch: 'full' },
+  { path: '', redirectTo: 'book/all', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];
 

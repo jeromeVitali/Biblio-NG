@@ -35,7 +35,7 @@ export class BookDetailComponent implements OnInit {
   }
 
   goBack(): void {
-    this.router.navigate(['./books']);
+    this.router.navigate(['./book/all']);
     // window.history.back()
   }
 }
