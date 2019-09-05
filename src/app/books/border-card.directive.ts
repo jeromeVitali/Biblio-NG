@@ -5,9 +5,9 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
   selector: '[appBookBorderCard]'
 })
 export class BorderCardDirective {
-  private initialColor: string = '#f5f5f5';
-  private selectColor: string = '#009000';
-  private defaultHeight: number = 245;
+  private initialColor = '#f5f5f5';
+  private selectColor = '#009000';
+  private defaultHeight = 245;
 
   constructor(private el: ElementRef) {
     this.setBorder(this.initialColor);

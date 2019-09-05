@@ -3,6 +3,7 @@ import { Router } from '@angular/router';
 import { AuthService } from './auth.service';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'login',
   template: `
     <div class="row">
@@ -26,7 +27,7 @@ import { AuthService } from './auth.service';
               />
             </div>
             <div>
-              <label for="password">Password</label>
+              <label for="password">Password </label>
               <input
                 type="password"
                 id="password"
@@ -53,11 +54,11 @@ import { AuthService } from './auth.service';
   `
 })
 export class LoginComponent {
-  message = 'Vous êtes déconnecté.';
-  private name: string;
-  private password: string;
+  public message = 'Vous êtes déconnecté. (admin/admin)';
+  public name: string;
+  public password: string;
 
-  constructor(private authService: AuthService, private router: Router) {}
+  constructor(public authService: AuthService, private router: Router) {}
 
   // Informe l'utilisateur sur son authentfication.
   setMessage() {

@@ -70,7 +70,7 @@ export const BOOKS: Book[] = [
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
     genres: ['Policier', 'Bande-dessinée'],
-    available: true,
+    available: false,
     loaningDate: new Date()
   },
   {
@@ -166,7 +166,7 @@ export const BOOKS: Book[] = [
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
     genres: ['Policier'],
-    available: true,
+    available: false,
     loaningDate: new Date()
   },
   {
@@ -178,7 +178,7 @@ export const BOOKS: Book[] = [
     picture:
       'https://laboitealisee.com/wp-content/uploads/2019/02/quiveut-215x215.png',
     genres: ['Policier', 'Bande-dessinée'],
-    available: true,
+    available: false,
     loaningDate: new Date()
   },
   {

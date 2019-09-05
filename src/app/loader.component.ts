@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'book-loader',
   template: `
     <div class="preloader-wrapper big active">
